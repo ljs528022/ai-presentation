@@ -2,7 +2,7 @@
  
 ## 목차
 1. [광고 내용 기반 예산 및 노출 수 예측](#1-광고-내용-기반-예산-및-노출-수-예측)
-2. [비정형 음성 데이터 요약 및 챗봇](#2-비정형-음성-데이터-요약-및-챗봇)
+2. [비정형 음성 데이터 요약](#2-비정형-음성-데이터-요약)
 3. [게시글 신뢰 지수 예측](#3-게시글-신뢰-지수-예측)
 ---
  
@@ -93,7 +93,7 @@ public Flux<AiAdResponse> recommendBudget(@RequestBody AdvertisementDTO request)
  
 ---
  
-## 2. 비정형 음성 데이터 요약 및 챗봇
+## 2. 비정형 음성 데이터 요약
  
 `OpenAI STT (Whisper)` · `LangChain` · `PromptTemplate` · `Redis 캐싱` 활용
  
